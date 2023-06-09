@@ -12,6 +12,65 @@ div#main-div{
     display: flex;
     flex-direction: row;
     background-color: bisque;
-    height: 150px;
-    width: 400px;
+    height: 160px;
+    width: 600px;
+}
+.border-div{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin: 10px;
+background-color: rgb(0, 0, 0);
+width: 400px;
+height: 130px;
+border-radius: 19px;
+border-style: solid;
+border-color: black;
+border-width: 5px;
+}
+.redLight{
+    display: flex;
+    margin-top: 4%;
+    margin-left: 2%;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: gray;
+    justify-content: space-between;
+}
+.yellowLight{
+    display: flex;
+    margin-top: 4%;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: gray;
+    justify-content: space-between;
+}
+.greenLight{
+    display: flex;
+    margin-top: 4%;
+    margin-right: 2%;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: gray;
+    justify-content: space-between;
+}
+.btn-div{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    border-style: solid;
+    margin: 5%;
+    width: 100px;
+    height: 100px;
+}
+.btn-next{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 40%;
 }
