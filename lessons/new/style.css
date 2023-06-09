@@ -1,0 +1,17 @@
+body,html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div#main-div{
+    display: flex;
+    flex-direction: row;
+    background-color: bisque;
+    height: 150px;
+    width: 400px;
+}
