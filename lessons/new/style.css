@@ -13,7 +13,7 @@ div#main-div{
     flex-direction: row;
     background-color: bisque;
     height: 160px;
-    width: 600px;
+    width: 700px;
 }
 .border-div{
 display: flex;
@@ -35,7 +35,7 @@ border-width: 5px;
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    background-color: gray;
+    background: rgb(133, 133, 133);
     justify-content: space-between;
 }
 .yellowLight{
@@ -44,7 +44,7 @@ border-width: 5px;
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    background-color: gray;
+    background: rgb(133, 133, 133);
     justify-content: space-between;
 }
 .greenLight{
@@ -54,23 +54,37 @@ border-width: 5px;
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    background-color: gray;
+    background: rgb(133, 133, 133);
     justify-content: space-between;
 }
 .btn-div{
     display: flex;
     justify-content: center;
-    border-radius: 10px;
-    border-style: solid;
     margin: 5%;
-    width: 100px;
     height: 100px;
+    width: 300px;
 }
-.btn-next{
+button#btn-RED{
     display: flex;
+    height: 100px;
+    width: 100px;
     justify-content: space-around;
-    width: 100%;
-    height: 100%;
     text-align: center;
-    padding-top: 40%;
+    padding-top: 40px;
+}
+button#btn-YELLOW{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 40px;
+}
+button#btn-GREEN{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 40px;
 }
